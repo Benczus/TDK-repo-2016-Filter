@@ -1,22 +1,22 @@
 \chapter{Related Works}
 \label{chap:relatedWorks}
-This chapter presents the basic concepts  of indoor postioning systems the most widely used technologies and gives a brief overview of the mathematical background of modeling and filtering  time serries.
+This chapter presents the basic concepts  of indoor positioning systems the most widely used technologies and gives a brief overview of the mathematical background of modeling and filtering  time series.
 \section{Indoor Positioning}
 The first Indoor positioning systems were planned in the 1980s but they become popular in the last decade \cite{liu2007survey,gu2009survey}. 
 IPS systems can be used in hospitals, malls, airports and offices.
 Indoor positioning is challenging due to the unique properties of the indoor environment.
-GPS is a very popular method of position, however it is not suited for such tasks because of its line of sight requirements and the multipath effect.
+GPS is a very popular method of position, however it is not suited for such tasks because of its line of sight requirements and the multi path effect.
 Wireless LAN, Bluetooth, infrared, ultrasonic and radio frequency  technologies are the most popular.
 Active Badge \cite{want1992active} was the first indoor positioning system which was based on infrared signals.
 Fingerprinting methods were first presented by the RADAR system \cite{bahl2000radar}.
 RFID \cite{ni2004landmarc} based technologies has emerged in the last years.
 Hybrid Indoor Positioning Systems \cite{baniukevic2013hybrid} has been created in the least few years.
-This paper connects to the ILONA System which is a hybrid indoor positioning and naviagtion framework. \cite{ZsoltToth2015}.
+This paper connects to the ILONA System which is a hybrid indoor positioning and navigation framework. \cite{ZsoltToth2015}.
 
 
 \subsection{Indoor Positioning with Wireless LAN}
 	Wireless LAN(WLAN) was designed to transmit data wirelessly over small distances, and connecting to the internet. WLAN also can be used for indoor positioning purposes [8]. \cite{evennou2006advanced}. WLAN is highly available since most devices can receive and process WLAN signals, smart phones can be programmed easily so they can implement client side filtering methods. It is also very cost-effective since the data received is highly accurate in most situations. Received Signal Strength Indication is measured by the device and it is determined for each available Access Points.
-	 WLAN positioning is based on the measurement of the signal strength value (RSSI). The user  is linked to or or multiple Access Points(AP) to determine user location at any given time. The User has to have a relatively stable and continuous connection. Unfortunatelly, the RSSI signal is not stable. It fluctuates over time even without any environmental impact. This fluctuation can be filtered at client side Electromagnetic signals are reflected \cite{kjaergaard2012mobile} by most bodies, as it can be seen on Figure \ref{fig:kockahaz}.
+	 WLAN positioning is based on the measurement of the signal strength value (RSSI). The user  is linked to or or multiple Access Points(AP) to determine user location at any given time. The User has to have a relatively stable and continuous connection. Unfortunately, the RSSI signal is not stable. It fluctuates over time even without any environmental impact. This fluctuation can be filtered at client side Electromagnetic signals are reflected \cite{kjaergaard2012mobile} by most bodies, as it can be seen on Figure \ref{fig:kockahaz}.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=.3\linewidth]{figures/Reflect.png}
@@ -25,12 +25,12 @@ This paper connects to the ILONA System which is a hybrid indoor positioning and
 	 A few people in a room can drastically alter the measurements, making it less reliable the more reflective bodies there are in the room. 
 
 \subsection{Fingerprinting Methods}
-	Although WLAN was not developed to be a positioning system, it is a popular candidate for indoor positioning systems.  Most of the existing solutions are based on the fingerprinting technique \cite{kaemarungsi2004properties}\cite{honkavirta2009comparative}  Instead of determining the distance between the AP and the user by the  RSSI, it creates a radio map.Fingerpringint based indoor positioning methods require huge computational capacity, so they can be performed only on the server side.
+	Although WLAN was not developed to be a positioning system, it is a popular candidate for indoor positioning systems.  Most of the existing solutions are based on the fingerprinting technique \cite{kaemarungsi2004properties}\cite{honkavirta2009comparative}  Instead of determining the distance between the AP and the user by the  RSSI, it creates a radio map.Fingerprinting based indoor positioning methods require huge computational capacity, so they can be performed only on the server side.
 	
 \subsection{WiFi Based Solutions}
-WiFi \cite{chen2002signal}based positioning popular due to the spread of mobile and smart phones in the early 2000's. However, GPS and AGPS are availeble in the modern phones, these technologies cannot be used in indoor environment. As more buildings, like hospitals, malls, etc. are designed with indoor WiFi Access Points in mind, it is only natural to try and use these APs to determine location.
+WiFi \cite{chen2002signal}based positioning popular due to the spread of mobile and smart phones in the early 2000's. However, GPS and AGPS are available in the modern phones, these technologies cannot be used in indoor environment. As more buildings, like hospitals, malls, etc. are designed with indoor WiFi Access Points in mind, it is only natural to try and use these APs to determine location.
 \subsection{Horus System}
-The Horus\cite{youssef2005horus} system is location determining system based on the IEE 802.11b WiFi , and Bluetooth connection, as seen on \ref{fig:horusimage}.The system determines user location by the received RSSI values from the access points. RSSI values are sent automatically, so implementing the system is purely a software solution, requiring no modifications on the hardware.Server oldalon van implementalva itt is a szamitas, de a kliens oldali szures novelte a hatekonysagot.
+The Horus\cite{youssef2005horus} system is location determining system based on the IEE 802.11b WiFi , and Bluetooth connection, as seen on \ref{fig:horusimage}.The system determines user location by the received RSSI values from the access points. RSSI values are sent automatically, so implementing the system is purely a software solution, requiring no modifications on the hardware.
 \begin{figure}[!h]
 	\centering
 		\includegraphics[width=.55\linewidth]{figures/Horus.png}

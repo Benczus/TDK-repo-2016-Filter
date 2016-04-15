@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: references.bib
+I was expecting an "="---line 96 of file references.bib
+ :  title={Properties of indoor received signal strength for WLAN location fingerprinting},technology 
+ :                                                                                                    and kovacs laca kiraly
+I'm skipping whatever remains of this entry
+Repeated entry---line 178 of file references.bib
+ : @misc{HORUS
+ :            ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "FirstFilter"
+Warning--I didn't find a database entry for "secondzero"
+Warning--I didn't find a database entry for "firstcomp"
+Warning--I didn't find a database entry for "secondcomp"
+Warning--I didn't find a database entry for "thirdcomp"
+Too many commas in name 1 of "Zsolt Tóth, Péter Magnucz, Richárd Németh, Judit Tamás" for entry ZsoltToth2015
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in Reflections
+Warning--to sort, need author or key in kaemarungsi2004properties
+Warning--to sort, need author or key in HORUS
+Warning--empty author in kaemarungsi2004properties
+Warning--empty booktitle in kaemarungsi2004properties
+Warning--empty year in kaemarungsi2004properties
+Warning--there's a number but no series in durbin2012time
+Too many commas in name 1 of "Zsolt Tóth, Péter Magnucz, Richárd Németh, Judit Tamás" for entry ZsoltToth2015
+while executing---line 1090 of file plain.bst
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            612 strings with 7423 characters,
+and the built_in function-call counts, 6203 in all, are:
+= -- 642
+> -- 233
+< -- 10
++ -- 99
+- -- 76
+* -- 422
+:= -- 941
+add.period$ -- 57
+call.type$ -- 17
+change.case$ -- 88
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 252
+empty$ -- 523
+format.name$ -- 76
+if$ -- 1363
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 16
+newline$ -- 87
+num.names$ -- 28
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 182
+stack$ -- 0
+substring$ -- 434
+swap$ -- 79
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 7
+while$ -- 59
+width$ -- 19
+write$ -- 190
+(There were 4 error messages)

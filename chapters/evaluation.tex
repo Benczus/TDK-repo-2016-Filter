@@ -22,22 +22,32 @@ Time,SSID,MAC,Signal
 \end{figure}
 
 \section{Comparison}
-The filters have clearly shown that their usage have increased the accuracy and steadiness of the WiFi signals. These results mean that the usage of preprocessing filters can be used to steadily improve positioning using the Horus System.
+The filters have clearly shown that their usage have increased the accuracy and steadiness of the WiFi signals. These results mean that the usage of preprocessing filters can be used to steadily improve positioning.
 
 
 
 The comparison of the diagrams:
+
+
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/comp1.png}
 		\caption{Comparison of the values of the raw and the values after first filter \cite{firstcomp}}\label{fig:firstComp}
 \end{figure}
 
+
+As seen on the first diagram, the filter marginally increases the continuity of the series.
+It dynamically reduces the range of numbers in which the series works in. Please note that the original, unfiltered series' lowest value was exceeded -50, where with the first filter it only goes down to around -15.
+
+
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/comp2.png}
 		\caption{Comparison of the values of the raw and the values after second filter \cite{secondcomp}}\label{fig:secondComp}
 \end{figure}
+
+The second filter is similar in nature. It reduces the range of numbers by more then half of the original values. It has a more complex algorithm, but it is less effective than the more simple, first filter, where the threshold isn't computed dynamically. It may be more useful in environments where filtering has to be done on unknown data sets.
+
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/comp3.png}
@@ -45,6 +55,5 @@ The comparison of the diagrams:
 \end{figure}
 
 
-easy to understand, steady connection.
 \section{Suggestion} 
-Way ahead of it's time, probably will be used in the future, and can be usedin great effect in theoretical envirment. 
+The first filter works well if you can specify the threshold amount well. It can marginally reduce the range, thus increasing the efficiency and accuracy of WiFi RSSI measurement in an indoor positioning environment.  The second filter is more dynamic in nature, as it can work on any data set without setting a certain threshold. Although less effective, it may be more practical to use in real life situations. More filters can be developed in the future to increase effectiveness. Computational complexity also has to be taken in mind. The first and second algorithm are quite simple, and could be run on most devices, but as effectiveness grows, so could complexity, rendering more and more devices unable to use preprocessing filters.

@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{Reflections}
+802.11g starts answering wlan range questions.
+\newblock \url{http://www.eetimes.com/document.asp?doc_id=1271877}.
+\newblock [Online; accessed 02-April-2016].
+
+\bibitem{HORUS}
+The horus wlan location determination system.
+\newblock
+  \url{https://www.usenix.org/legacy/publications/library/proceedings/mobisys05/tech/full_papers/youssef/youssef_html/index.html}.
+\newblock [Online; accessed 08-April-2016].
+
+\bibitem{kaemarungsi2004properties}
+Properties of indoor received signal strength for wlan location fingerprinting.
+
+\bibitem{bahl2000radar}
+Paramvir Bahl and Venkata~N Padmanabhan.
+\newblock Radar: An in-building rf-based user location and tracking system.
+\newblock In {\em INFOCOM 2000. Nineteenth Annual Joint Conference of the IEEE
+  Computer and Communications Societies. Proceedings. IEEE}, volume~2, pages
+  775--784. Ieee, 2000.
+
+\bibitem{baniukevic2013hybrid}
+Artur Baniukevic, Christian~S Jensen, and Hua Lu.
+\newblock Hybrid indoor positioning with wi-fi and bluetooth: Architecture and
+  performance.
+\newblock In {\em Mobile Data Management (MDM), 2013 IEEE 14th International
+  Conference on}, volume~1, pages 207--216. IEEE, 2013.
+
+\bibitem{chen2002signal}
+Yongguang Chen and Hisashi Kobayashi.
+\newblock Signal strength based indoor geolocation.
+\newblock In {\em Communications, 2002. ICC 2002. IEEE International Conference
+  on}, volume~1, pages 436--439. IEEE, 2002.
+
+\bibitem{durbin2012time}
+James Durbin and Siem~Jan Koopman.
+\newblock {\em Time series analysis by state space methods}.
+\newblock Number~38. Oxford University Press, 2012.
+
+\bibitem{evennou2006advanced}
+Fr{\'e}d{\'e}ric Evennou and Fran{\c{c}}ois Marx.
+\newblock Advanced integration of wifi and inertial navigation systems for
+  indoor mobile positioning.
+\newblock {\em Eurasip journal on applied signal processing}, 2006:164--164,
+  2006.
+
+\bibitem{gu2009survey}
+Yanying Gu, Anthony Lo, and Ignas Niemegeers.
+\newblock A survey of indoor positioning systems for wireless personal
+  networks.
+\newblock {\em Communications Surveys \& Tutorials, IEEE}, 11(1):13--32, 2009.
+
+\bibitem{honkavirta2009comparative}
+Ville Honkavirta, Tommi Per{\"a}l{\"a}, Simo Ali-L{\"o}ytty, and Robert
+  Pich{\'e}.
+\newblock A comparative survey of wlan location fingerprinting methods.
+\newblock In {\em Positioning, Navigation and Communication, 2009. WPNC 2009.
+  6th Workshop on}, pages 243--251. IEEE, 2009.
+
+\bibitem{kalman1960new}
+Rudolph~Emil Kalman.
+\newblock A new approach to linear filtering and prediction problems.
+\newblock {\em Journal of basic Engineering}, 82(1):35--45, 1960.
+
+\bibitem{kjaergaard2012mobile}
+Mikkel~Baun Kj{\ae}rgaard, Martin Wirz, Daniel Roggen, and Gerhard Tr{\"o}ster.
+\newblock Mobile sensing of pedestrian flocks in indoor environments using wifi
+  signals.
+\newblock In {\em Pervasive Computing and Communications (PerCom), 2012 IEEE
+  International Conference on}, pages 95--102. IEEE, 2012.
+
+\bibitem{liu2007survey}
+Hui Liu, Houshang Darabi, Pat Banerjee, and Jing Liu.
+\newblock Survey of wireless indoor positioning techniques and systems.
+\newblock {\em Systems, Man, and Cybernetics, Part C: Applications and Reviews,
+  IEEE Transactions on}, 37(6):1067--1080, 2007.
+
+\bibitem{ni2004landmarc}
+Lionel~M Ni, Yunhao Liu, Yiu~Cho Lau, and Abhishek~P Patil.
+\newblock Landmarc: indoor location sensing using active rfid.
+\newblock {\em Wireless networks}, 10(6):701--710, 2004.
+
+\bibitem{want1992active}
+Roy Want, Andy Hopper, Veronica Falcao, and Jonathan Gibbons.
+\newblock The active badge location system.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 10(1):91--102,
+  1992.
+
+\bibitem{youssef2005horus}
+Moustafa Youssef and Ashok Agrawala.
+\newblock The horus wlan location determination system.
+\newblock In {\em Proceedings of the 3rd international conference on Mobile
+  systems, applications, and services}, pages 205--218. ACM, 2005.
+
+\bibitem{ZsoltToth2015}
+Richárd Németh Judit~Tamás Zsolt~Tóth, Péter~Magnucz.
+\newblock Data model for hybrid indoor positioning systems.
+\newblock {\em Production Systems and Information Engineering}, 7(1):67--80, 12
+  2015.
+\newblock HU ISSN 1785-1270.
+
+\end{thebibliography}
