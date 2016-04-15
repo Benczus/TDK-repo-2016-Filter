@@ -10,20 +10,19 @@
 \contentsline {subsection}{\numberline {2.1.4}Horus System}{5}{subsection.11}
 \contentsline {section}{\numberline {2.2}Time Series Filtering Methods}{5}{section.13}
 \contentsline {subsection}{\numberline {2.2.1}Time Series}{5}{subsection.14}
-\contentsline {subsection}{\numberline {2.2.2}Discrete Time Series}{5}{subsection.15}
+\contentsline {subsection}{\numberline {2.2.2}Discrete Time Series}{6}{subsection.15}
 \contentsline {subsection}{\numberline {2.2.3}ARMA Models}{6}{subsection.16}
 \contentsline {subsection}{\numberline {2.2.4}Filtering Methods}{7}{subsection.17}
 \contentsline {subsection}{\numberline {2.2.5}Time Windowing}{7}{subsection.18}
 \contentsline {chapter}{\numberline {3}Filtering Methods}{8}{chapter.19}
-\contentsline {section}{\numberline {3.1}Formal Description}{8}{section.21}
-\contentsline {subsection}{\numberline {3.1.1}First Filter}{8}{subsection.22}
-\contentsline {subsection}{\numberline {3.1.2}Second filter}{9}{subsection.26}
-\contentsline {section}{\numberline {3.2}R Implementation}{9}{section.28}
-\contentsline {subsection}{\numberline {3.2.1}First filter implementation}{10}{subsection.29}
-\contentsline {subsection}{\numberline {3.2.2}Second filter implementation}{11}{subsection.64}
-\contentsline {chapter}{\numberline {4}Evaluation}{13}{chapter.90}
-\contentsline {section}{\numberline {4.1}Test Environment}{13}{section.91}
-\contentsline {section}{\numberline {4.2}Comparison}{13}{section.93}
-\contentsline {section}{\numberline {4.3}Suggestion}{15}{section.97}
-\contentsline {chapter}{\numberline {5}Summary}{16}{chapter.98}
-\contentsline {chapter}{\numberline {A}CD Mell\IeC {\'e}klet}{17}{appendix.99}
+\contentsline {section}{\numberline {3.1}Formal Description}{9}{section.22}
+\contentsline {subsection}{\numberline {3.1.1}First Filter}{9}{subsection.23}
+\contentsline {subsection}{\numberline {3.1.2}Second filter}{9}{subsection.27}
+\contentsline {section}{\numberline {3.2}R Implementation}{10}{section.29}
+\contentsline {subsection}{\numberline {3.2.1}First filter implementation}{10}{subsection.30}
+\contentsline {subsection}{\numberline {3.2.2}Second filter implementation}{12}{subsection.66}
+\contentsline {chapter}{\numberline {4}Evaluation}{14}{chapter.92}
+\contentsline {section}{\numberline {4.1}Test Environment}{14}{section.93}
+\contentsline {section}{\numberline {4.2}Comparison}{14}{section.95}
+\contentsline {section}{\numberline {4.3}Suggestion}{16}{section.99}
+\contentsline {chapter}{\numberline {5}Summary}{17}{chapter.100}

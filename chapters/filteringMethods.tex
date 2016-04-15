@@ -1,26 +1,31 @@
 \chapter{Filtering Methods}
+\onehalfspacing
 \label{chap:filteringMethods}
 The goal of the following filters are to reduce caused by  multiple factors. These distractions are hard to avoid, and there is no surefire way to get rid of them. Filtering aims to solve this problem by creating an algorithm to reduce noise as much as possible, as simply as possible.
 
 
-The unfiltered RSSI values, on shown on a diagram:
+The unfiltered RSSI values, on shown on a Figure \ref{fig:UnfilteredZero} and its descriptive statics can be found in Table \ref{tab:summaryA}.
+
 \begin{figure}[!h]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/UnfilteredZeroV1.png}
-		\caption{RSSI values \cite{HORUS}}\label{fig:UnfilteredZero}
+		\caption{RSSI values }\label{fig:UnfilteredZero}
 \end{figure}
 
-And a summary of the values:
-$$
-\begin{array}{cccccc}
+
+\begin{table}[h]
+\centering
+\caption{Summary of the measurements}\label{tab:summaryA}
+\begin{tabular}{cccccc}
 Min.& 1st Qu. & Median & Mean & 3rd Qu. & Max.\\
 -87.00 & -31.00 & -30.00 & -30.53 & -29.00 & -27.00
-\end{array}
-$$
+\end{tabular}
+\end{table}
+
 \section{Formal Description}
 \subsection{First Filter}
-The first one's mathematical model:
-$y=(y_1,y_2\ldots y_n)$ is the filtered vector,$x=(x_1,x_2,\ldots x_n)$ is the starting value vector $ n\in \mathbb{N} $ is the number of values in the vector and $m \in \mathbb{N}$ is the memory size.
+The model of the first filter is the following
+$y=(y_1,y_2\ldots y_n)$ is the filtered vector, $x=(x_1,x_2,\ldots x_n)$ is the starting value vector $ n\in \mathbb{N} $ is the number of values in the vector and $m \in \mathbb{N}$ is the memory size.
 \begin{equation}\fontsize{15pt}{2}
 y=(h(x,1,m),h(x,2,m)\ldots h(x,m,m), f(x,m+1,m)\ldots f(x,n,m))
 \end{equation}
@@ -38,27 +43,26 @@ f(x,i,m)=
 	\overline{(x_i\ldots x_{i-m})} & \mbox{if} |x_i-x_{i-1}|>t
 	\end{array}
 \right.
-\end{equation}           
-The first part(h(x,i,m)):
+\end{equation}    
+\\\\       
+The first part( h (x, i, m)):
 
 
 The algorithm follows a simple pattern for the first 5 values. It takes the average from $x_i\ldots x_{i+m}$ indexes to create the filtered value of $y_1\ldots y_m$.
 After the first m elements are calculated, it uses a different $f$ function to calculate the rest of the elements of y. 
 
 
-The second  part(h(x,i,m)):
+The second  part( f (x, i, m)):
 
 After the first 5 elements, the algorithm's actions are determined by a t variable.
-If t is lesser than $|x_i-x_{i-1}|$, so the difference between the current and the last element exceeds the value of t:
+If t is lesser than $|x_i-x_{i-1}|$, so the difference between the current and the last element exceeds the value of t.
 
-the average of the last 5 $x$ value is put into the current y element.
+The average of the last 5 $x$ value is put into the current y element.
 If the previous condition is false, then the current x element is used as the filtered value.
-
-
 
 \subsection{Second filter}
 The second one's mathematical model:
-$y=(y_1,y_2\ldots y_n)$ is the filtered vector,$x=(x_1,x_2,\ldots x_n)$ is the starting value vector $ n\in \mathbb{N} $ is the number of values in the vector and $m \in \mathbb{N}$ is the memory size.
+$y=(y_1,y_2\ldots y_n)$ is the filtered vector, $x=(x_1,x_2,\ldots x_n)$ is the starting value vector $ n\in \mathbb{N} $ is the number of values in the vector and $m \in \mathbb{N}$ is the memory size.
 The second filter's algorithm is much like the first one, except t is calculated after every iteration: 
 
 
@@ -68,9 +72,9 @@ t=\sqrt{{1\over m}\sum\limits_{j=i}^{i-m}(x_j-\overline{x})^2}
 
 
 
-The second pard of the algorithm is different: 
+The second part of the algorithm is different: 
 
-The f function determines the elements by calculating a $t$ threshold that changes dynamically through the the function. It is always calculated by taking the standard deviation of the last 5 elements of the unfiltered vector. After the algorithm knows the value of t, it checks if the difference between the current element and the last element is greater than this value.
+The f function determines the elements by calculating a $t$ threshold that changes dynamically through the function. It is always calculated by taking the standard deviation of the last 5 elements of the unfiltered vector. After the algorithm knows the value of t, it checks if the difference between the current element and the last element is greater than this value.
 
 In the case that it is, it takes the average of the last m elements of the $X$ vector and puts it in the $y_i$ element.
 
@@ -81,12 +85,13 @@ If it's lesser then the t value, then $x_i$ is imply put into $y_i$.
 
 
 \section{R Implementation} 
+
 The implementations of the mathematical descriptions were done in R script.
 The two filters are similar in nature, although offering different results.
 The end results differ mildly depending on the choosing of threshold and memory size.
 Choosing those two variables is key to an optimal filtering.
 \subsection{First filter implementation}
-The algorithm -- **
+The first part of the algorithm (h(x, i ,m)) can be seen on Figure \ref{fig:code1}, while the second part (f(x, i ,m)) can be seen on Figure \ref{fig:code12}
 \begin{figure}[h!]
 \fontsize{14}{2}
 	\begin{lstlisting}
@@ -102,9 +107,9 @@ while(j<=memsize)
   j=j+1
 }
 	\end{lstlisting}
-	\caption{The h(x,i,m) function, implemented.}\label{fig:code}
+	\caption{The implementation of h(x,i,m).}\label{fig:code1}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[!h]
 \fontsize{14}{2}
 	\begin{lstlisting}
 while(x<=nrow(Measurement))
@@ -126,27 +131,27 @@ while(x<=nrow(Measurement))
   x=x+1
 }
 	\end{lstlisting}
-	\caption{The f(x,i,m) function, implemented.}\label{fig:code}
+	\caption{The implementation of f(x,i,m)}\label{fig:code12}
 \end{figure}
 
-The following diagram and summary is after the filtering, with t and m chosen as 5:
-\begin{figure}[h!]
+The diagram of the first filter with the threshold and memory size both chosen as 5 can be seen on  Figure \ref{fig:FirstZero}, and the summary of the statistics of the filtered measurements can be seen on Table \ref{tab:summaryB}
+\begin{figure}[!h]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/FirstFilterZeroV1.png}
-		\caption{Values with the first filter \cite{FirstFilter}}\label{fig:FirstZero}
-		
-		$$
-		\begin{array}{cccccc}
-		Min.& 1st Qu. & Median & Mean & 3rd Qu. & Max.\\
-		-47.00 & -31.00 & -30.00 & -30.21 & -29.00 &   -27.00 
-		\end{array}
-		$$
-		         
-		
+		\caption{Values with the first filter }\label{fig:FirstZero}	
 \end{figure}
+		\begin{table}[h]
+		\centering
+		\caption{Summary of the measurements after the first filter }\label{tab:summaryB}
+		\begin{tabular}{cccccc}
+		Min.& 1st Qu. & Median & Mean & 3rd Qu. & Max.\\
+		-47.00 & -31.00 & -30.00 & -30.21 & -29.00 & -27.00
+		\end{tabular}
+		\end{table}
+		\\\\\\\\\\\\
 \subsection{Second filter implementation}
 Since the first part of the algorithm is analogous with the first one, it will not be included in this section.
-The second part of the implementation is as follows:
+The second part of the implementation can be seen on Figure \ref{fig:code2}
 \begin{figure}[h!]
 \fontsize{14}{2}
 	\begin{lstlisting}
@@ -172,27 +177,25 @@ while(x<=nrow(Measurement))
 }
 
 	\end{lstlisting}
-	\caption{The f(x,i,m) function, implemented.}\label{fig:code}
+	\caption{The implementation of f(x,i,m). }\label{fig:code2}
 \end{figure} 
 
 
-The following diagram and summary is after the filtering, with m chosen as 5:
+The diagram of the filtered time series can be seen on Figure \ref{fig:SecondZero}, and the summary of the statistics can be seen on Table \ref{tab:summaryC}
 
 
-\begin{figure}[h!]
+\begin{figure}[!h]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/SecondFilter.png}
-		\caption{Values with the second filter \cite{secondzero}}\label{fig:SecondZero}
+		\caption{Values with the second filter }\label{fig:SecondZero}
 \end{figure}
 
-
-\begin{figure*}
-$$
-		\begin{array}{cccccc}
-		Min.& 1st Qu. & Median & Mean & 3rd Qu. & Max.\\
-		-54.00 & -31.00 & -30.00 & -30.07  & -29.00 &-27.00 
-		\end{array}
-		$$
-\end{figure*}
-		          
+		        		\begin{table}[!h]
+		        		\centering
+		        		\caption{Summary of measurements after the second filter }\label{tab:summaryC}
+		        		\begin{tabular}{cccccc}
+		        		Min.& 1st Qu. & Median & Mean & 3rd Qu. & Max.\\
+		        		-54.00 & -31.00 & -30.00 & -30.07 & -29.00 & -27.00
+		        		\end{tabular}
+		        		\end{table}  
 		   

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  15 APR 2016 10:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.4)  15 APR 2016 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,32 +679,25 @@ File: lstlang3.sty 2013/08/26 1.5b listings language file
 LaTeX Warning: Unused global option(s):
     [13pt].
 
-(./main.aux
-
-LaTeX Warning: Label `fig:code' multiply defined.
-
-
-LaTeX Warning: Label `fig:code' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count137
@@ -735,7 +728,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -745,35 +738,35 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count144
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 
-<./figures/miskolc_logo.png, id=119, 72.27pt x 65.043pt>
+<./figures/miskolc_logo.png, id=115, 72.27pt x 65.043pt>
 File: ./figures/miskolc_logo.png Graphic file (type png)
 
 <use ./figures/miskolc_logo.png>
-Package pdftex.def Info: ./figures/miskolc_logo.png used on input line 57.
+Package pdftex.def Info: ./figures/miskolc_logo.png used on input line 61.
 (pdftex.def)             Requested size: 170.97pt x 153.88123pt.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/miskolc_logo.png
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 231--261
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 268.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 268.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -787,7 +780,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./chapters/introduction.tex
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 16.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
@@ -795,22 +788,18 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 ]
 Chapter 2.
-<figures/Reflect.png, id=192, 257.96375pt x 185.69376pt>
+<figures/Reflect.png, id=186, 257.96375pt x 185.69376pt>
 File: figures/Reflect.png Graphic file (type png)
 
 <use figures/Reflect.png>
 Package pdftex.def Info: figures/Reflect.png used on input line 22.
 (pdftex.def)             Requested size: 128.23076pt x 92.30829pt.
+ [4
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4
-
-] <figures/Horus.png, id=215, 384.43625pt x 470.75874pt>
+]
+<figures/Horus.png, id=207, 384.43625pt x 470.75874pt>
 File: figures/Horus.png Graphic file (type png)
-
-<use figures/Horus.png>
+ <use figures/Horus.png>
 Package pdftex.def Info: figures/Horus.png used on input line 36.
 (pdftex.def)             Requested size: 235.08864pt x 287.88074pt.
 
@@ -820,215 +809,195 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [5 <./figures/Reflect.png>] [6 <./figures/Horus.png>])
 (./chapters/filteringMethods.tex [7]
 Chapter 3.
-<figures/UnfilteredZeroV1.png, id=252, 646.66594pt x 411.03563pt>
+<figures/UnfilteredZeroV1.png, id=248, 646.66594pt x 411.03563pt>
 File: figures/UnfilteredZeroV1.png Graphic file (type png)
 
 <use figures/UnfilteredZeroV1.png>
-Package pdftex.def Info: figures/UnfilteredZeroV1.png used on input line 9.
+Package pdftex.def Info: figures/UnfilteredZeroV1.png used on input line 11.
 (pdftex.def)             Requested size: 384.68576pt x 244.51591pt.
+ [8
 
-Overfull \hbox (10.73306pt too wide) in paragraph at lines 22--24
-\T1/cmr/m/n/10.95 The first one's math-e-mat-i-cal model: $\OML/cmm/m/it/10.95 
-y \OT1/cmr/m/n/10.95 = (\OML/cmm/m/it/10.95 y[]; y[] [] y[]\OT1/cmr/m/n/10.95 )
-$ \T1/cmr/m/n/10.95 is the fil-tered vector,$\OML/cmm/m/it/10.95 x \OT1/cmr/m/n
-/10.95 = (\OML/cmm/m/it/10.95 x[]; x[]; [] x[]\OT1/cmr/m/n/10.95 )$
- []
+ <./figures/UnfilteredZeroV1.png>]
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 31.
 
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 26.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 26.
+(Font)              size <14.4> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.49995> not available
-(Font)              size <10.95> substituted on input line 26.
+(Font)              size <10.95> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 26.
+(Font)              size <7> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15> not available
-(Font)              size <14.4> substituted on input line 26.
+(Font)              size <14.4> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.49995> not available
-(Font)              size <10.95> substituted on input line 26.
+(Font)              size <10.95> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
-(Font)              size <7> substituted on input line 26.
+(Font)              size <7> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 26.
+(Font)              size <14.4> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.49995> not available
-(Font)              size <10.95> substituted on input line 26.
+(Font)              size <10.95> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 26.
+(Font)              size <7> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 26.
+(Font)              size <14.4> substituted on input line 31.
 
-[8
-
- <./figures/UnfilteredZeroV1.png>]
-LaTeX Font Info:    Calculating math sizes for size <> on input line 26.
-
+LaTeX Font Info:    Calculating math sizes for size <> on input line 31.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 31.
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 29.
+(amsmath)                 on input line 34.
 
 
-Overfull \hbox (23.43051pt too wide) in paragraph at lines 60--63
-\T1/cmr/m/n/10.95 The sec-ond one's math-e-mat-i-cal model: $\OML/cmm/m/it/10.9
-5 y \OT1/cmr/m/n/10.95 = (\OML/cmm/m/it/10.95 y[]; y[] [] y[]\OT1/cmr/m/n/10.95
- )$ \T1/cmr/m/n/10.95 is the fil-tered vector,$\OML/cmm/m/it/10.95 x \OT1/cmr/m
-/n/10.95 = (\OML/cmm/m/it/10.95 x[]; x[]; [] x[]\OT1/cmr/m/n/10.95 )$
+Underfull \hbox (badness 10000) in paragraph at lines 46--49
+
  []
 
 [9]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 98.
- <figures/FirstFilterZeroV1.png, id=272, 646.66594pt x 411.03563pt>
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 103.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/FirstFilterZeroV1.png, id=271, 646.66594pt x 411.03563pt>
 File: figures/FirstFilterZeroV1.png Graphic file (type png)
 
 <use figures/FirstFilterZeroV1.png>
-Package pdftex.def Info: figures/FirstFilterZeroV1.png used on input line 135.
+Package pdftex.def Info: figures/FirstFilterZeroV1.png used on input line 140.
 (pdftex.def)             Requested size: 384.68576pt x 244.51591pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 137--152
 
-LaTeX Warning: Citation `FirstFilter' on page 10 undefined on input line 136.
+ []
 
 
-LaTeX Warning: Citation `FirstFilter' on page 10 undefined on input line 136.
+Underfull \hbox (badness 10000) in paragraph at lines 137--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--152
+
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 155.
+[10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 160.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 155.
- [10]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/SecondFilter.png, id=311, 646.66594pt x 411.03563pt>
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 160.
+ [11 <./figures/FirstFilterZeroV1.png>]
+<figures/SecondFilter.png, id=320, 646.66594pt x 411.03563pt>
 File: figures/SecondFilter.png Graphic file (type png)
 
 <use figures/SecondFilter.png>
-Package pdftex.def Info: figures/SecondFilter.png used on input line 184.
+Package pdftex.def Info: figures/SecondFilter.png used on input line 189.
 (pdftex.def)             Requested size: 384.68576pt x 244.51591pt.
-
-
-LaTeX Warning: Citation `secondzero' on page 11 undefined on input line 185.
-
-
-LaTeX Warning: Citation `secondzero' on page 11 undefined on input line 185.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapters/evaluation.tex [11 <./figures/FirstFilterZeroV1.png>] [12 <./figu
-res/SecondFilter.png>]
+) (./chapters/evaluation.tex [12] [13 <./figures/SecondFilter.png>]
 Chapter 4.
-<figures/comp1.png, id=349, 646.66594pt x 411.03563pt>
+<figures/comp1.png, id=356, 646.66594pt x 411.03563pt>
 File: figures/comp1.png Graphic file (type png)
  <use figures/comp1.png>
-Package pdftex.def Info: figures/comp1.png used on input line 34.
+Package pdftex.def Info: figures/comp1.png used on input line 29.
 (pdftex.def)             Requested size: 384.68576pt x 244.51591pt.
-
-
-LaTeX Warning: Citation `firstcomp' on page 13 undefined on input line 35.
-
-
-LaTeX Warning: Citation `firstcomp' on page 13 undefined on input line 35.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/comp2.png, id=350, 646.66594pt x 411.03563pt>
+[14
+
+] <figures/comp2.png, id=363, 646.66594pt x 411.03563pt>
 File: figures/comp2.png Graphic file (type png)
- <use figures/comp2.png>
-Package pdftex.def Info: figures/comp2.png used on input line 45.
+
+<use figures/comp2.png>
+Package pdftex.def Info: figures/comp2.png used on input line 41.
 (pdftex.def)             Requested size: 384.68576pt x 244.51591pt.
-
-
-LaTeX Warning: Citation `secondcomp' on page 13 undefined on input line 46.
-
-
-LaTeX Warning: Citation `secondcomp' on page 13 undefined on input line 46.
-
-[13
-
-] <figures/comp3.png, id=356, 646.66594pt x 411.03563pt>
+ [15 <./figures/comp1.png> <./figures/comp2.png>]
+<figures/comp3.png, id=373, 646.66594pt x 411.03563pt>
 File: figures/comp3.png Graphic file (type png)
-
-<use figures/comp3.png>
-Package pdftex.def Info: figures/comp3.png used on input line 53.
+ <use figures/comp3.png>
+Package pdftex.def Info: figures/comp3.png used on input line 49.
 (pdftex.def)             Requested size: 384.68576pt x 244.51591pt.
-
-
-LaTeX Warning: Citation `thirdcomp' on page 14 undefined on input line 54.
-
-
-LaTeX Warning: Citation `thirdcomp' on page 14 undefined on input line 54.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chapters/summary.tex [14 <./figures/comp1.png> <./figures/comp2.png>]
-[15 <./figures/comp3.png>]
+) (./chapters/summary.tex [16 <./figures/comp3.png>]
 Chapter 5.
-) (./appendices/cd.tex [16
-
-]
-Appendix A.
 ) (./main.bbl [17
 
 ]
@@ -1040,35 +1009,33 @@ ll _ papers / youssef /
 [18
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+
+Package caption Warning: Unused \captionsetup[sub] on input line 38.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B594CE9B5944CC91DEDDAC9FE08D4324;4588.
+(rerunfilecheck)             Checksum: 9AD92BA6ADD1C7393ED88CD14CD20706;4464.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 288.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 14736 strings out of 493304
- 204161 string characters out of 6139872
- 328525 words of memory out of 5000000
- 17820 multiletter control sequences out of 15000+600000
+ 14734 strings out of 493304
+ 204167 string characters out of 6139872
+ 322593 words of memory out of 5000000
+ 17821 multiletter control sequences out of 15000+600000
  26119 words of font info for 78 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,9n,45p,1195b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,9n,45p,778b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1085,14 +1052,14 @@ ype1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (20 pages, 741718 bytes).
+sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+ftt1095.pfb>
+Output written on main.pdf (20 pages, 729461 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 137 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 432 compressed objects within 5 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

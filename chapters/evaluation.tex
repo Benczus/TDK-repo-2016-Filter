@@ -1,7 +1,7 @@
 \chapter{Evaluation}
 \label{chap:evaluation}
 \section{Test Environment}
-The measurements were recorded in the University of Miskolc's Institution of Information Science, Department of Information Technology.The recorded values were taken with 4 identical smart phones with Android operating system. Two of the tests were recorded without any disturbance, just the natural reflective surfaces in the room, and two were recorded with people present in the room. The latest showed a lot of inconsistencies on the recorded values, further increasing the need for a filter on the preprocessed data. As noise grows, the filters value increases, as it can be smoothed out the naturally occurring  jumps on the diagram.
+The measurements were recorded in the University of Miskolc's Institution of Information Science, Department of Information Technology. The recorded values were taken with 4 identical smart phones with Android operating system. Two of the tests were recorded without any disturbance, just the natural reflective surfaces in the room, and two were recorded with people present in the room. The latest showed a lot of inconsistencies on the recorded values, further increasing the need for a filter on the preprocessed data. As noise grows, the filters value increases, as it can be smoothed out the naturally occurring  jumps on the diagram.
 The following sample is taken from the data set used to test the filters on:
 \begin{figure}[h!]
 \begin{verbatim}
@@ -23,35 +23,32 @@ Time,SSID,MAC,Signal
 
 \section{Comparison}
 The filters have clearly shown that their usage have increased the accuracy and steadiness of the WiFi signals. These results mean that the usage of preprocessing filters can be used to steadily improve positioning.
-
-
-
-The comparison of the diagrams:
-
-
+The comparison of the diagrams
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/comp1.png}
-		\caption{Comparison of the values of the raw and the values after first filter \cite{firstcomp}}\label{fig:firstComp}
+		\caption{Comparison of the values of the raw and the values after first filter
+		}\label{fig:firstComp}
 \end{figure}
 
 
-As seen on the first diagram, the filter marginally increases the continuity of the series.
+As seen on the Figure \ref{fig:firstComp} the filter marginally increases the continuity of the series.
 It dynamically reduces the range of numbers in which the series works in. Please note that the original, unfiltered series' lowest value was exceeded -50, where with the first filter it only goes down to around -15.
 
 
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/comp2.png}
-		\caption{Comparison of the values of the raw and the values after second filter \cite{secondcomp}}\label{fig:secondComp}
+		\caption{Comparison of the values of the raw and the values after second filter }\label{fig:secondComp}
 \end{figure}
 
-The second filter is similar in nature. It reduces the range of numbers by more then half of the original values. It has a more complex algorithm, but it is less effective than the more simple, first filter, where the threshold isn't computed dynamically. It may be more useful in environments where filtering has to be done on unknown data sets.
+The second filter as seen on Figure \ref{fig:secondComp} is similar in nature. It reduces the range of numbers by more then half of the original values. It has a more complex algorithm, but it is less effective than the more simple, first filter, where the threshold isn't computed dynamically. It may be more useful in environments where filtering has to be done on unknown data sets.	
 
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=.9\linewidth]{figures/comp3.png}
-		\caption{Comparison of the values of the two filters \cite{thirdcomp}}\label{fig:thirdComp}
+		\caption{Comparison of the values of the two filters 
+		}\label{fig:thirdComp}
 \end{figure}
 
 

@@ -1,6 +1,16 @@
 \chapter{Summary}
+\onehalfspacing
 \label{chap:summary}
+The project began with ILONA, a hybrid Indoor Positioning System that uses WLAN.
+The need of improving accuracy came up mainly because the measured data were often unusable due to inconsistencies  in the RSSI values. The solution could not be done on the hardware side, so it had to be done by a piece of computer code.
+We started out with a big mass of data, which were recorded for the purpose of testing.
+The data clearly showed points of time where the connection was disturbed, and the RSSI values were significantly altered compared to the  neighboring measurements. The goal was to create a method that would smoothen out these values, keeping the connection steady. Having consistent and accurate RSSI values are essential in indoor positioning, as the program calculates position based on these values.
 
-The research surrounding the active filtering of data sets is a very popular topic today, and for a good reason.
-This paper proves that preprocessing filters can be a very effective tool in indoor positioning research and generally increasing WLAN signals.
-Even using using a simple, time windowing program can increase signal strength and accuracy by a margin, which proves that implementing more filters could result in an optimal method.
+
+The data was processed and represented in R as a time series. Two formulas using time windowing were created and implemented as filters. R Studio was used as a development environment. The first filter requires 2 inputs, a threshold and a memory size. Choosing these inputs optimally  is crucial to the algorithm, as the result depends heavily on them.
+The second filter is much like the first one, except the threshold is generated dynamically.
+This can lead to a less effective, albeit more independent algorithm.
+
+ After the algorithms were complete, and working optimally, diagrams were created to better represent data, and to evaluate the results of the filtering. The results clearly show the improvement over using raw values. The range of values is heavily reduced and the diagrams are smoothened out significantly. Significantly improving the examined data set, it can be clearly stated that the end result is successful.
+ 
+ Using filters can lead to a more steady and accurate set of RSSI values . More complex algorithms can be developed in the future to further improve functionality. The two filters in this paper are easy to understand, and simple to implement. Their computational requirement isn't high. The program only work with a few integers and real numbers to calculate optimal values. Presumably, as the algorithms change, so will their computational requirement, although they should remain relatively simple to be able to use as a preprocessing program constantly.

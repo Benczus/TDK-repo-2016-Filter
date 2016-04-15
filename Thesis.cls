@@ -116,7 +116,7 @@
 } 
 %-------------------------------------------------   
 % Your degree name - this is currently used in the title page and abstract
-\degree{Szakdolgozat} 
+\degree{} 
 %-------------------------------------------------   
 % Your name - this is used in the title page and abstract
 \authors{
@@ -135,27 +135,27 @@
 \keywords{} % Keywords for your thesis - this is not currently used anywhere in the template, cite it with \keywordnames if you want it
 %-------------------------------------------------   
 \university{\texorpdfstring{\href{http://www.uni-miskolc.hu} % Your university's URL
-                {Miskolci Egyetem}} % Your university's name - this is currently used in the title page
-                {Miskolci Egyetem}}
+                {University of Miskolc}} % Your university's name - this is currently used in the title page
+                {University of Miskolc}}
 %-------------------------------------------------   
 \UNIVERSITY{\texorpdfstring{\href{http://www.uni-miskolc.hu} % Your university's URL
-                {MISKOLCI EGYETEM}} % Your university's name in capitals - this is currently used in the abstract page
-                {MISKOLCI EGYETEM}}
+                {UNIVERSITY OF MISKOLC}} % Your university's name in capitals - this is currently used in the abstract page
+                {UNIVERSITY OF MISKOLC}}
                 
 \institute{\texorpdfstring{\href{http://www.iit.uni-miskolc.hu} % Your university's URL
-                {Informatikai Intézet}} % Your university's name in capitals - this is currently used in the abstract page
-                {Informatikai Intézet}}
+                {Institute of Information Science}} % Your university's name in capitals - this is currently used in the abstract page
+                {Institute of Information Science}}
                 
 \INSTITUTE{\texorpdfstring{\href{http://www.iit.uni-miskolc.hu} % Your university's URL
-                {INFORMATIKAI INTÉZET}} % Your university's name in capitals - this is currently used in the abstract page
-                {INFORMATIKAI INTÉZET}}
+                {INSTITUTE OF INFORMATION SCIENCE}} % Your university's name in capitals - this is currently used in the abstract page
+                {INSTITUTE OF INFORMATION SCIENCE}}
 %-------------------------------------------------                
 \department{
 	\texorpdfstring{
 		\href{http://www.iit.uni-miskolc.hu} % Your department's URL
-       {Általános Informatikai Tanszék}
+       {Department of Information Technology}
    } % Your department's name - used in the title page and abstract
-   {Általános Informatikai Tanszék}
+   {Department of Information Technology}
 }
 %-------------------------------------------------                
 \DEPARTMENT{\texorpdfstring{\href{Department or School Web Site URL Here (include http://)} % Your department's URL

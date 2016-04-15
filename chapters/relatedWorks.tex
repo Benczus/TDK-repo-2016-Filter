@@ -15,8 +15,8 @@ This paper connects to the ILONA System which is a hybrid indoor positioning and
 
 
 \subsection{Indoor Positioning with Wireless LAN}
-	Wireless LAN(WLAN) was designed to transmit data wirelessly over small distances, and connecting to the internet. WLAN also can be used for indoor positioning purposes [8]. \cite{evennou2006advanced}. WLAN is highly available since most devices can receive and process WLAN signals, smart phones can be programmed easily so they can implement client side filtering methods. It is also very cost-effective since the data received is highly accurate in most situations. Received Signal Strength Indication is measured by the device and it is determined for each available Access Points.
-	 WLAN positioning is based on the measurement of the signal strength value (RSSI). The user  is linked to or or multiple Access Points(AP) to determine user location at any given time. The User has to have a relatively stable and continuous connection. Unfortunately, the RSSI signal is not stable. It fluctuates over time even without any environmental impact. This fluctuation can be filtered at client side Electromagnetic signals are reflected \cite{kjaergaard2012mobile} by most bodies, as it can be seen on Figure \ref{fig:kockahaz}.
+	Wireless LAN(WLAN) was designed to transmit data wirelessly over small distances, and connecting to the internet. WLAN also can be used for indoor positioning purposes \cite{evennou2006advanced}. WLAN is highly available since most devices can receive and process WLAN signals, smart phones can be programmed easily so they can implement client side filtering methods. It is also very cost-effective since the data received is highly accurate in most situations. Received Signal Strength Indication is measured by the device and it is determined for each available Access Points.
+	 WLAN positioning is based on the measurement of the signal strength value (RSSI). The user  is linked to or multiple Access Points(AP) to determine user location at any given time. The User has to have a relatively stable and continuous connection. Unfortunately, the RSSI signal is not stable. It fluctuates over time even without any environmental impact. This fluctuation can be filtered at client side Electromagnetic signals are reflected \cite{kjaergaard2012mobile} by most bodies, as it can be seen on Figure \ref{fig:kockahaz}.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=.3\linewidth]{figures/Reflect.png}
@@ -25,12 +25,12 @@ This paper connects to the ILONA System which is a hybrid indoor positioning and
 	 A few people in a room can drastically alter the measurements, making it less reliable the more reflective bodies there are in the room. 
 
 \subsection{Fingerprinting Methods}
-	Although WLAN was not developed to be a positioning system, it is a popular candidate for indoor positioning systems.  Most of the existing solutions are based on the fingerprinting technique \cite{kaemarungsi2004properties}\cite{honkavirta2009comparative}  Instead of determining the distance between the AP and the user by the  RSSI, it creates a radio map.Fingerprinting based indoor positioning methods require huge computational capacity, so they can be performed only on the server side.
+	Although WLAN was not developed to be a positioning system, it is a popular candidate for indoor positioning systems.  Most of the existing solutions are based on the fingerprinting technique \cite{kaemarungsi2004properties,honkavirta2009comparative}. Instead of determining the distance between the AP and the user by the  RSSI, it creates a radio map. Fingerprinting based indoor positioning methods require huge computational capacity, so they can be performed only on the server side.
 	
 \subsection{WiFi Based Solutions}
-WiFi \cite{chen2002signal}based positioning popular due to the spread of mobile and smart phones in the early 2000's. However, GPS and AGPS are available in the modern phones, these technologies cannot be used in indoor environment. As more buildings, like hospitals, malls, etc. are designed with indoor WiFi Access Points in mind, it is only natural to try and use these APs to determine location.
+WiFi \cite{chen2002signal} based positioning popular due to the spread of mobile and smart phones in the early 2000's. However, GPS and AGPS are available in the modern phones, these technologies cannot be used in indoor environment. As more buildings, like hospitals, malls, etc. are designed with indoor WiFi Access Points in mind, it is only natural to try and use these APs to determine location.
 \subsection{Horus System}
-The Horus\cite{youssef2005horus} system is location determining system based on the IEE 802.11b WiFi , and Bluetooth connection, as seen on \ref{fig:horusimage}.The system determines user location by the received RSSI values from the access points. RSSI values are sent automatically, so implementing the system is purely a software solution, requiring no modifications on the hardware.
+The Horus \cite{youssef2005horus} system is location determining system based on the IEE 802.11b WiFi , and Bluetooth connection, as seen on \ref{fig:horusimage}. The system determines user location by the received RSSI values from the access points. RSSI values are sent automatically, so implementing the system is purely a software solution, requiring no modifications on the hardware.
 \begin{figure}[!h]
 	\centering
 		\includegraphics[width=.55\linewidth]{figures/Horus.png}
@@ -40,7 +40,7 @@ The Horus\cite{youssef2005horus} system is location determining system based on 
 
 \section{Time Series Filtering Methods}
 \subsection{Time Series}
-Time series \cite{kalman1960new}\cite{durbin2012time} is a set of observations (x), being recorded a specified time (t).
+Time series \cite{kalman1960new,durbin2012time} is a set of observations (x), being recorded a specified time (t).
 It is stochastic in a sense that most of the time, measurements closer together have more importance towards each other.
 Time series are often plotted with line charts on a one dimensional panel, as they represent the data fluctuations well.
 They are very frequently used in most domain of applied science.
@@ -79,4 +79,4 @@ Filtering is the method of separating the noise from the signal, prediction of f
 
 
 \subsection{Time Windowing}
-Time windowing is the process of allowing certain methods to stay idle for a certain amount of time before continuing to run or terminate. This certain amount of time depends on the predefined amount, and can be modified in the code. It is purely a software solution on most cases.In most cases, programs cannot andvence without any imput. Introducing a time window can make the program dynamic, because it can respond if it doesn't receive the needed values.
+Time windowing is the process of allowing certain methods to stay idle for a certain amount of time before continuing to run or terminate. This certain amount of time depends on the predefined amount, and can be modified in the code. It is purely a software solution on most cases. Programs cannot andvence without any imput. Introducing a time window can make the program dynamic, because it can respond if it doesn't receive the needed values.
